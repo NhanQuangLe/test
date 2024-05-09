@@ -17,6 +17,9 @@ namespace TestProject.Helpers
         {
             // Em không làm phần backend call api trên trường
             // Lúc học wpf em lấy data từ Local SQL server thôi ạ
+
+            // khi call api sẽ lấy dữ liệu và chuyển sang lớp FlightDTO, nhưng vì phải lấy fullName của flight nên
+            // phải thực hiện call api thứ 2 để lấy full name
         }
     }
 }
